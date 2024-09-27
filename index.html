@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机一本书</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="banner" class="banner">
+        HBD 2 HCC!
+        <button onclick="closeBanner()">x</button>
+    </div>
+    <div class="container">
+        <h1>随机一本书</h1>
+        <div class="buttons">
+            <button onclick="recommendBook('women')">Women</button>
+            <button onclick="recommendBook('cooking')">Cooking</button>
+            <button onclick="recommendBook('cats')">Cats</button>
+            <button onclick="recommendBook('poetry')">Poetry</button>
+            <button onclick="recommendBook('picture_Books')">Picture_Books</button>
+            <button onclick="recommendBook('german')">German</button>
+            <button onclick="recommendBook('history')">History</button>
+            <button onclick="recommendBook('literature')">Literature</button>
+            <button onclick="recommendBook('psychology')">Psychology</button>
+            <button onclick="recommendBook('algebra')">Algebra</button>
+        </div>
+        <div id="book" class="book"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
